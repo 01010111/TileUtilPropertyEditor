@@ -1,0 +1,4 @@
+var nC:Array<Int> = [0, 1, 2, 3, 4, 5, 20, 21, 22, 23, 24, 25, 40, 45]; 
+for (i in 0...nC.length) map.setTileProperties(nC[i], FlxObject.NONE)
+var cT:Array<Int> = [41, 42, 43, 44]; 
+for (i in 0...cT.length) map.setTileProperties(cT[i], FlxObject.FLOOR)
